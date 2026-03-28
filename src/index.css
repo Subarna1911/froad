@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+body {
+  background-image: url("/bg.svg");
+  background-repeat: repeat;
+  background-position: center;
+  background-color: var(--color-mainbg);
+}
+
+@theme {
+  --font-title: "IBM Plex Mono", monospace;
+  --font-heading: "Gambarino", serif;
+  --font-body: "Supreme", sans-serif;
+  --color-dark-bg: #0e1c2d;
+  --color-dark-blue: #3658d3;
+  --color-mainbg: #f8f7f7;
+  --color-secondary: #f57642;
+  --color-blue:#0a0f2c;
+  --color-yellow:#ffd37c;
+}
+
+@keyframes infiniteScroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.horizontal-scrolling-items {
+  display: flex;
+  width: max-content;
+  font-size: 30px;
+  animation: infiniteScroll 10s linear infinite;
+}
+
+.horizontal-scrolling-items__item {
+  white-space: nowrap;
+  padding-right: 2rem;
+}
+
+/* custom fonts */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+}
+
+p {
+  font-family: var(--font-body);
+}
