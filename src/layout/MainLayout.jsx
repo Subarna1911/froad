@@ -1,7 +1,7 @@
 import React from 'react';
 import { Outlet, useLocation } from 'react-router-dom';
 import Head from './Head';
-import Footer from '../Layout/Footer';
+import Footer from '../layout/Footer';
 import { motion } from "motion/react";
 
 

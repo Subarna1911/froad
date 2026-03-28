@@ -196,3 +196,23 @@ export const cardsData = [
  }
 
 ]
+
+
+export const accordionData = [
+  {
+    title: "Build a strong foundation",
+    content: "Focus on core concepts like DSA, OS, DBMS and networking. These are asked in almost every interview.",
+  },
+  {
+    title: "Work on real projects",
+    content: "Build 2–3 solid projects that solve real problems. Quality matters more than quantity.",
+  },
+  {
+    title: "Learn version control",
+    content: "Get comfortable with Git and GitHub early. It's a must-have skill for every developer.",
+  },
+  {
+    title: "Practice communication",
+    content: "Technical skills alone won't land you a job. Practice explaining your thoughts clearly.",
+  },
+];

@@ -5,7 +5,7 @@ import Slider from '../components/Slider';
 import InfiniteScroll from '../animaton/InfiniteScroll';
 import MasterCard from '../components/MasterCard';
 import Resources from '../components/Resources';
-import design from "../assets/design.webp";
+import Lace from '../components/Lace';
 import Freshers from '../components/Freshers';
 
 
@@ -16,12 +16,10 @@ const Home = () => {
       <Intro/>
       <InfiniteScroll/>
       <Slider/>
-         <div
-              className="h-40 bg-repeat-x bg-center bg-contain"
-              style={{ backgroundImage: `url(${design})` }}
-            />
+        <Lace/>
       <Resources/>
       <Freshers/>
+      <MasterCard/>
    </div>
   )
 }
