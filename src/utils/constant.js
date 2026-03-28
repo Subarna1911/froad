@@ -76,3 +76,123 @@ export const cardsData = [
     ],
   },
 ];
+
+
+// learning platforms data
+
+ export const platformData = [{
+  title:"FreeCodeCamp",
+  desc:"Free Project based Curriculum",
+  link:"https://www.freecodecamp.org/",
+ },
+
+ {
+  title:"GreatFrontEnd",
+  desc:"The complete prep platform for Front End interviews.",
+  link:"https://www.greatfrontend.com/",
+ },
+
+ {
+  title:"MDN web Docs",
+  desc:"The MDN Web Docs site provides information about Open Web technologies.",
+  link:"https://developer.mozilla.org/en-US/",
+ },
+
+ {
+  title:"The Odin Project",
+  desc:"Full Stack open-source curriculum",
+  link:"https://www.theodinproject.com"
+ },
+
+ {
+  title:"Namstedev",
+  desc:"NamasteDev is an EdTech platform dedicated to empowering aspiring learners and coders.",
+ link:'https://namastedev.com/',
+ },
+
+ {
+  title:"Javascript.info",
+  desc:"Modern JavaScript Tutorial: simple, but detailed explanations with examples ",
+  link:"https://javascript.info/",
+ }
+
+]
+
+
+
+ export const YoutubeData = [{
+  title:"Traversy Media",
+  desc:"Crash Courses and Tutorials",
+  link:"https://www.youtube.com/watch?v=ZDRZvFNK-ek",
+ },
+
+ {
+  title:"FireShip",
+  desc:"Quick, high quality tech ocntent",
+  link:"https://www.greatfrontend.com/",
+ },
+
+ {
+  title:"Web Dev simplified",
+  desc:"Clear Js and React tutorials.",
+  link:"https://developer.mozilla.org/en-US/",
+ },
+
+ {
+  title:"CodeEvolution",
+  desc:"In dept React and js",
+  link:"https://www.theodinproject.com"
+ },
+
+ {
+  title:"Akshay Saini",
+  desc:"Namaste js series",
+ link:'https://www.youtube.com/watch?v=pN6jk0uUrD8&list=PLlasXeu85E9cQ32gLCvAvr9vNaUccPVNP',
+ },
+
+ {
+  title:"Kelvin Powell",
+  desc:"Css and more",
+  link:"https://javascript.info/",
+ }
+
+]
+
+
+ export const practiceData = [{
+  title:"FreeCodeCamp",
+  desc:"Free Project based Curriculum",
+  link:"https://www.freecodecamp.org/",
+ },
+
+ {
+  title:"LeetCode",
+  desc:"The complete prep platform for Front End interviews.",
+  link:"https://www.greatfrontend.com/",
+ },
+
+ {
+  title:"CodeWars",
+  desc:"The MDN Web Docs site provides information about Open Web technologies.",
+  link:"https://developer.mozilla.org/en-US/",
+ },
+
+ {
+  title:"The Odin Project",
+  desc:"Full Stack open-source curriculum",
+  link:"https://www.theodinproject.com"
+ },
+
+ {
+  title:"Namstedev",
+  desc:"NamasteDev is an EdTech platform dedicated to empowering aspiring learners and coders.",
+ link:'https://namastedev.com/',
+ },
+
+ {
+  title:"Css Battle",
+  desc:"Css Challenges and competitions ",
+  link:"https://javascript.info/",
+ }
+
+]
