@@ -8,8 +8,7 @@ import { cardsData } from '../utils/constant.js';
 
 
 const Slider = () => {
-  const scrollEnd = `-${cardsData.length * 320}px`; // auto calculate based on card count
-
+  const scrollEnd = `-${cardsData.length * 320}px`;
   return (
     <div
       className="w-full bg-center bg-no-repeat bg-cover"

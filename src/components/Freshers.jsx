@@ -16,26 +16,25 @@ const Freshers = () => {
   return (
     <>
        <div
-      className="relative w-full min-h-screen flex justify-center bg-cover bg-no-repeat bg-center"
+      className="relative w-full  flex justify-center bg-cover bg-no-repeat bg-center"
       style={{ backgroundImage: `url(${graybg})` }}
     >
       <Container>
         <div className="w-full py-10 md:py-24">
-          <div className="flex items-center justify-center">
-            <h1 className="text-4xl font-bold text-center">
+          <div className="flex items-center justify-center gap-2">
+            <h1 className="text-2xl md:text-4xl font-bold text-center">
               Tips for Freshers
             </h1>
             <img
               src={cake}
               alt="cake"
-              className="w-30 h-30"
-             
+              className="w-16 h-16 md:w-30 md:h-30"
             />
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
             {/* Left — Accordion */}
-            <div className="col-span-1 space-y-3 ">
+            <div className="col-span-1 space-y-3">
               {accordionData.map((item, index) => (
                 <div
                   key={index}

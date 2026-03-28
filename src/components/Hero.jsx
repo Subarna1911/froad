@@ -43,7 +43,7 @@ const Hero = () => {
          
          {/* roate animation used */}
           <div className="mt-4 md:mt-6 relative w-fit">
-            <img className="w-full" src={js} alt="jslogo" />
+            <img className=" md:w-full" src={js} alt="jslogo" />
 
             <RotatingDialText className="absolute -top-60">
               HTML • CSS • TAILWIND • REACT • 

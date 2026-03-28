@@ -6,7 +6,7 @@ const Card = ({ card }) => {
   return (
     <motion.div
       whileHover={{ scale: 1.03, transition: { duration: 0.2 } }}
-      className="bg-[#0A0A0A] hover:bg-dark-bg cursor-pointer text-white p-7 w-[320px] md:w-105 shrink-0 h-full shadow-2xl rounded-[18px] flex flex-col gap-6"
+      className="bg-dark-bg hover:bg-gray-900 cursor-pointer text-white p-7 w-[320px] md:w-105 shrink-0 h-full shadow-2xl rounded-[18px] flex flex-col gap-6"
     >
       {/* Title + Note */}
       <div className="flex justify-between items-center gap-4">

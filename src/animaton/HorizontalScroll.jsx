@@ -3,8 +3,8 @@ import { useRef } from "react";
 
 const HorizontalScrollCarousel = ({
   children,
-  height    = "200vh",
-  scrollEnd = "-80%",
+  height    = "100vh",
+  scrollEnd = "-70%",
   className = "",
 }) => {
   const targetRef = useRef(null);

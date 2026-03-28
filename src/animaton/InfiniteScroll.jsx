@@ -23,7 +23,7 @@ export default function InfiniteScroll() {
   const all = [...ITEMS, ...ITEMS, ...ITEMS];
 
   return (
-    <div className="flex items-center justify-center h-20 cursor-pointer bg-[#0A0A0A]  mb-20">
+    <div className="flex items-center justify-center h-20 cursor-pointer bg-dark-bg  mb-20">
       <div
         className="w-full overflow-hidden relative"
         onMouseEnter={() => setPaused(true)}

@@ -8,7 +8,7 @@ import { ChevronLeft, ChevronRight, Mouse } from "lucide-react";
 
 const Intro = () => {
   return (
-    <div className="relative w-full h-screen flex items-center">
+    <div className="relative w-full md:min-h-screen flex items-center overflow-hidden">
 
       {/* Background */}
       <div
@@ -43,10 +43,10 @@ const Intro = () => {
                 step by step.
               </p>
 
-              <MiniButton className="flex flex-wrap items-center justify-center md:justify-start gap-2 text-sm sm:text-base">
-                <ChevronLeft size={20} />
+              <MiniButton className="flex flex-wrap items-center justify-center md:justify-start text-sm sm:text-base">
+                <ChevronLeft size={16} />
                 <span>/</span>
-                <ChevronRight size={20} />
+                <ChevronRight size={16}/>
                 Your Journey Starts Here
                 <Mouse className="animate-bounce" size={20} />
               </MiniButton>

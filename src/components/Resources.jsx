@@ -17,7 +17,7 @@ const ResourceSection = ({
   headingColor = "text-black",
   reverse = false,
 }) => (
-  <div className={`${bgColor} px-8 py-12 rounded-2xl max-w-4xl ${reverse ? "ml-auto" : "mr-auto"}`}>
+  <div className={`${bgColor} px-4 sm:px-8 py-12 rounded-2xl w-full sm:max-w-4xl ${reverse ? "sm:ml-auto" : "sm:mr-auto"}`}>
     {/* Heading */}
     <div className="flex items-center justify-center gap-2">
       <h2 className={`text-2xl font-bold ${headingColor}`}>{title}</h2>

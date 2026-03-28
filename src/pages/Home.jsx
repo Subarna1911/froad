@@ -8,7 +8,6 @@ import Resources from '../components/Resources';
 import Lace from '../components/Lace';
 import Freshers from '../components/Freshers';
 
-
 const Home = () => {
   return (
    <div>
@@ -20,6 +19,7 @@ const Home = () => {
       <Resources/>
       <Freshers/>
       <MasterCard/>
+
    </div>
   )
 }
