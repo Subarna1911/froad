@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
 import Container from '../components/Container';
 import Navbar from '../components/Navbar';
-import Button from '../components/Button';
+import AddTask from '../components/AddTask';
+
 import { Plus, ChevronRight, ChevronLeft, Menu, X } from 'lucide-react';
 
 
@@ -25,14 +26,7 @@ const Head = () => {
             <Navbar />
           </div>
 
-          {/* Desktop CTA */}
-          <div className="hidden md:block">
-            <a href="/task">
-              <Button className="bg-dark-blue text-white flex gap-4 items-center justify-center">
-                Add Task <span><Plus size={24} /></span>
-              </Button>
-            </a>
-          </div>
+         
 
           {/* Mobile Hamburger */}
           <button
@@ -48,11 +42,7 @@ const Head = () => {
         {menuOpen && (
           <div className="md:hidden mt-4 flex flex-col items-center gap-4 pb-4 border-t pt-4">
             <Navbar />
-            <a href="/task">
-              <Button className="bg-dark-blue text-white flex gap-4 items-center justify-center">
-                Add Task <span><Plus size={24} /></span>
-              </Button>
-            </a>
+           <AddTask/>
           </div>
         )}
       </Container>

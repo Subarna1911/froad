@@ -216,3 +216,16 @@ export const accordionData = [
     content: "Technical skills alone won't land you a job. Practice explaining your thoughts clearly.",
   },
 ];
+
+
+
+// task button data
+
+  export const taskButtons = [
+    { id: 1, label: "All Task" },
+    { id: 2, label: "Completed Task" },
+    { id: 3, label: "Not Completed Task" },
+    { id: 4, label: "Priority - HIGH" },
+    { id: 5, label: "Priority - MEDIUM" },
+    { id: 6, label: "Priority - LOW" },
+  ];
