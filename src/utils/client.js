@@ -1,9 +1,11 @@
 import { createClient } from "@sanity/client";
 import { createImageUrlBuilder } from '@sanity/image-url'
 
+const projectId = import.meta.env.VITE_SANITY_PROJECT_ID;
+
 
 export const client = createClient({
-  projectId: "vat7xsej",
+  projectId,
   dataset: "production",
   useCdn: true, // Use the edge cache for faster response times
   apiVersion: "2024-01-01",
