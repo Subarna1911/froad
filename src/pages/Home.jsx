@@ -8,19 +8,21 @@ import Resources from '../components/Resources';
 import Lace from '../components/Lace';
 import Freshers from '../components/Freshers';
 
+
 const Home = () => {
   return (
-   <div>
-      <Hero/>
-      <Intro/>
-      <InfiniteScroll/>
-      <Slider/>
-        <Lace/>
-      <Resources/>
-      <Freshers/>
-      <MasterCard/>
+    <div>
+      <Hero />
+      <Intro />
+      <InfiniteScroll />
+      <Slider />
+      <Lace />
+      <Resources />
+      <Freshers />
+      <MasterCard />
 
-   </div>
+
+    </div>
   )
 }
 

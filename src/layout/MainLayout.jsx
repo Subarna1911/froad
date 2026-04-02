@@ -11,7 +11,7 @@ export default function MainLayout() {
     <div className="flex flex-col min-h-screen w-full overflow-x-hidden">
       <Head />
 
-      <main className="flex-1 w-full pt-4 md:pt-16">
+      <main className="flex-1 w-full">
         <motion.div
           key={location.pathname}
           initial={{ opacity: 0, y: 8 }}

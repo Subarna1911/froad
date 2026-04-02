@@ -9,7 +9,7 @@ import RotatingDialText from "../animaton/RotatingDialText";
 
 const Hero = () => {
   return (
-    <div className="w-full" >
+    <div className="w-full py-10">
       <Container>
         <div className="flex flex-col items-center">
           <div className="relative flex items-center justify-center w-full ">

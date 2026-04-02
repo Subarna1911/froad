@@ -6,7 +6,6 @@ import smileybg from "../assets/smileybg.png";
 import { motion } from "motion/react";
 import { cardsData } from '../utils/constant.js';
 
-
 const Slider = () => {
   const scrollEnd = `-${cardsData.length * 320}px`;
   return (

@@ -24,10 +24,13 @@ const Head = () => {
           {/* Desktop Nav */}
           <div className="hidden md:block">
             <Navbar />
+             
           </div>
-
+          
+          <div className="hidden md:block"> 
+              <AddTask/>
+          </div>
          
-
           {/* Mobile Hamburger */}
           <button
             className="md:hidden p-2 rounded-lg"
@@ -42,7 +45,6 @@ const Head = () => {
         {menuOpen && (
           <div className="md:hidden mt-4 flex flex-col items-center gap-4 pb-4 border-t pt-4">
             <Navbar />
-           <AddTask/>
           </div>
         )}
       </Container>
