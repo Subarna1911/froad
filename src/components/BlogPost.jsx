@@ -17,12 +17,12 @@ const BlogPost = () => {
 
   if (error) {
     return (
-      <div className="flex flex-col items-center justify-center py-20 text-center">
+      <div className="flex flex-col  items-center justify-center py-20 text-center bg-white  px-8  rounded-2xl">
         <div className="text-5xl mb-4">⚠️</div>
-        <h2 className="text-xl font-semibold text-gray-800 mb-2">
+        <h2 className="text-xl font-semibold text-gray-800 mb-4">
           Something went wrong
         </h2>
-        <p className="text-gray-500 text-sm mb-6">{error}</p>
+    
         <button
           onClick={() => window.location.reload()}
           className="px-5 py-2 bg-blue-600 text-white rounded-lg text-sm hover:bg-blue-700 transition"

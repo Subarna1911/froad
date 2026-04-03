@@ -5,7 +5,7 @@ import { motion } from "motion/react";
 const Card = ({ card }) => {
   return (
     <motion.div
-      whileHover={{ scale: 1.03, transition: { duration: 0.2 } }}
+      whileHover={{ scale: 0.98, transition: { duration: 0.2 } }}
       className="bg-dark-bg hover:bg-gray-900 cursor-pointer text-white p-7 w-[320px] md:w-105 shrink-0 h-full shadow-2xl rounded-[18px] flex flex-col gap-6"
     >
       {/* Title + Note */}

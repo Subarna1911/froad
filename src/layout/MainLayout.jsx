@@ -8,14 +8,14 @@ export default function MainLayout() {
   const location = useLocation();
 
   return (
-    <div className="flex flex-col min-h-screen w-full overflow-x-hidden">
+  
+    <div className="relative w-full"> 
       <Head />
-
-      <main className="flex-1 w-full">
+      <main className="w-full">
         <motion.div
           key={location.pathname}
-          initial={{ opacity: 0, y: 8 }}
-          animate={{ opacity: 1, y: 0 }}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
           transition={{ duration: 0.25 }}
         >
           <Outlet />
