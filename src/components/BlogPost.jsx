@@ -22,7 +22,7 @@ const BlogPost = () => {
         <h2 className="text-xl font-semibold text-gray-800 mb-4">
           Something went wrong
         </h2>
-    
+
         <button
           onClick={() => window.location.reload()}
           className="px-5 py-2 bg-blue-600 text-white rounded-lg text-sm hover:bg-blue-700 transition"
@@ -54,14 +54,14 @@ const BlogPost = () => {
             <div className="p-4 md:p-6">
               <div className="flex items-center justify-between">
                 <div>
-                   <h2 className="text-xl font-bold hover:text-blue-600">
-                  {post.title}
-                </h2>
-                <p className="text-gray-600 mb-2 text-sm italic">
-                  By {post.authorName || "Unknown Author"}
-                </p>
+                  <h2 className="text-xl font-bold hover:text-blue-600">
+                    {post.title}
+                  </h2>
+                  <p className="text-gray-600 mb-2 text-sm italic">
+                    By {post.authorName || "Unknown Author"}
+                  </p>
                 </div>
-               
+
                 <div>
                   <p>
                     {new Date(post.publishedAt).toLocaleDateString("en-US", {

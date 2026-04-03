@@ -20,7 +20,7 @@ const Slider = () => {
   const looped = [...cardsData, ...cardsData];
 
   return (
-    <div
+    <div id="roadmap"
       className="w-full bg-center bg-no-repeat bg-cover py-12 px-6"
       style={{ backgroundImage: `url(${graybg})` }}
     >
